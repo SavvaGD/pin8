@@ -1,0 +1,23 @@
+Компонент	Пин PinLab	Назначение	Примечание
+TFT Дисплей (SPI - Основной)			
+VCC	3.3V	Питание	
+GND	GND	Земля	
+CS	GPIO5	Chip Select	
+RESET	GPIO4	Сброс	
+DC (A0)	GPIO2	Data/Command	
+SDA (MOSI)	GPIO23	Данные	Фиксированный SPI MOSI
+SCK (CLK)	GPIO18	Тактирование	Фиксированный SPI SCK
+MISO	GPIO19	Приём данных	Фиксированный SPI MISO
+LED	3.3V	Подсветка	Через резистор 220 Ом
+LCD Дисплей (I2C - Второй)			
+VCC	3.3V	Питание	
+GND	GND	Земля	
+SDA	GPIO21	Данные I2C	Фиксированный I2C SDA
+SCL	GPIO22	Тактирование I2C	Фиксированный I2C SCL
+Кнопки			
+Вверх	GPIO15	D-pad Up	Подтяжка к VCC
+Вниз	GPIO16	D-pad Down	Подтяжка к VCC
+Влево	GPIO17	D-pad Left	Подтяжка к VCC
+Вправо	GPIO25	D-pad Right	Подтяжка к VCC
+A	GPIO13	Кнопка A	Подтяжка к VCC
+B	GPIO14	Кнопка B	Подтяжка к VCC
